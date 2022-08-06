@@ -1,0 +1,7 @@
+project: router
+target: federation
+
+cmds:
+  - cmd: /federation
+  - cmd: /federation_no_inst @@
+    libfuzzer: false

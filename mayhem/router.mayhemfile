@@ -1,0 +1,7 @@
+project: router
+target: router
+
+cmds:
+  - cmd: /router
+  - cmd: /router_no_inst @@
+    libfuzzer: false
